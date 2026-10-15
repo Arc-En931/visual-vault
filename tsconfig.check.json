@@ -1,0 +1,3 @@
+{ "compilerOptions": { "allowJs": true, "checkJs": true, "noEmit": true, "target": "es2022", "module": "es2022", "moduleResolution": "bundler",
+  "lib": ["es2022","dom","dom.iterable","webworker"], "strict": false, "noUnusedLocals": true, "noUnusedParameters": false, "noImplicitReturns": false, "skipLibCheck": true },
+  "include": ["js/**/*.js"] }

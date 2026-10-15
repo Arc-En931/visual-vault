@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VisualVault tests</title>
+<style>body{font:15px system-ui;margin:1rem;max-width:60rem}small{color:#555}</style></head>
+<body><h1>VisualVault tests</h1><div id="out">Running…</div>
+<script type="module">
+  import { runAll } from './harness.js';
+  import './step-b.test.js';
+  import './step-c.test.js';
+  import './step-e.test.js';
+  runAll();
+</script></body></html>

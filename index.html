@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>VisualVault</title>
+<meta name="theme-color" content="#10202b">
+<meta name="description" content="A private image catalog that lives on your device.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar" id="bar">
+  <a class="brand" href="#/">VisualVault</a>
+  <nav aria-label="Main">
+    <a href="#/" data-nav="catalog">Catalog</a>
+    <a href="#/product/new" data-nav="new" aria-label="Add product">Add</a>
+    <a href="#/manage" data-nav="manage">Manage</a>
+  </nav>
+</header>
+<main id="main" tabindex="-1"><p class="boot">Opening your catalog…</p></main>
+<div id="toasts" aria-live="polite" aria-atomic="false"></div>
+<noscript><p class="boot">VisualVault needs JavaScript.</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
